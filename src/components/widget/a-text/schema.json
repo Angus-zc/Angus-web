@@ -1,0 +1,75 @@
+{
+    "title": "AText",
+    "description": "The base componet of AText",
+    "type": "object",
+    "required": [
+        "propValue",
+        "style",
+        "title"
+    ],
+    "properties": {
+        "propValue": {
+            "type": [
+                "string",
+                "number"
+            ]
+        },
+        "title": {
+            "type": [
+                "string",
+                "number"
+            ] 
+        },
+        "style": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "width": {
+                    "type": "number",
+                    "minmun": 0,
+                    "maximum": 1500
+                },
+                "height": {
+                    "type": "number",
+                    "minmun": 0,
+                    "maximum": 1500
+                },
+                "fontSize": {
+                    "type": "number",
+                    "minmun": 0,
+                    "maximum": 500
+                },
+                "fontWeight": {
+                    "type": "number",
+                    "minmun": 0,
+                    "maximum": 1000
+                },
+                "lineHeight": {
+                    "type": "number",
+                    "minmun": 0,
+                    "maximum": 100
+                },
+                "textAlign": {
+                    "type": "string",
+                    "enum": [
+                        "left",
+                        "center",
+                        "right"
+                    ]
+                },
+                "color": {
+                    "type": "string"
+                },
+                "backgroundColor": {
+                    "type": "string"
+                },
+                "left": {
+                    "type": "number"
+                },
+                "top": {
+                    "type": "number"
+                }
+            }
+        }
+    }
+}

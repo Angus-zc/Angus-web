@@ -1,0 +1,16 @@
+.menu {
+  width: 100px;
+  position: absolute;
+  z-index: 999999;
+  background-color: white;
+  line-height: 3vh;
+  .item {
+    width: 100%;
+    line-height: 5vh;
+    text-align: center;
+    cursor: pointer;
+    &:hover{
+        background-color: #CECECE;
+    }
+  }
+}

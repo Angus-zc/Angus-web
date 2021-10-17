@@ -1,0 +1,7 @@
+@import '../../../../style/variable.scss';
+.options{
+    width: 20%;
+    height: 100%;
+    background-color: $lightGrayBackgroundColor;
+    overflow: auto;
+}

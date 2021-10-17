@@ -1,0 +1,12 @@
+@import "./style/reset.scss";
+@import '~antd/dist/antd.css';
+@import 'animate.css';
+.back-img{
+    width: 100vw;
+    height: 100vh;
+    z-index: -1000;
+    position: absolute;
+}
+body{
+    font-family: cursive;
+}

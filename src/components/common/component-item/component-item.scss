@@ -1,0 +1,16 @@
+.component-item{
+    width: 50%;
+    line-height: 10vh;
+    padding: 2px ;
+    margin: 2vh auto;
+    color: blue;
+    border: 1px solid #CECECE;
+    cursor: pointer;
+    text-align: center;
+    cursor: move;
+    &:hover{
+        transition:  all .1s;
+        transform: scale(1.1);
+        border: 1px solid blue;
+    }
+}
