@@ -1,0 +1,16 @@
+.guide-post {
+  width: 10vw;
+  height: 10vh;
+  background-color: #F7F7F7;
+  border-radius: 15px;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  &:hover{
+      border: 1px solid lightblue;
+  }
+}
+.link{
+    color: black;
+}
+

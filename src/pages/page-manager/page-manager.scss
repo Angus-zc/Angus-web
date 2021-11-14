@@ -1,0 +1,70 @@
+@import '../../style/variable.scss';
+.page-manager {
+  height: 100vh;
+  background: #F7F7F7;
+  
+  .actions {
+    border-radius: 2vw;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow: 2px 2px 2px #e4d9d9, -5px -5px 10px #ffffff;
+  }
+ 
+  .ant-table {
+    border-radius: 2vw;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px #bababa, -5px -5px 10px #ffffff;
+  }
+  .header {
+    width: 100%;
+    background: #F7F7F7;
+    text-align: center;
+    line-height: 13vh;
+    color: white;
+    font-size: 2.5rem;
+    .link {
+      width: 80px;
+      height: 40px;
+      transform: translateY(-6px) translateX(32vw);
+      border-radius: 10vh;
+      background: linear-gradient(145deg, #e6e6e6, #ffffff);
+      box-shadow: 26px 26px 52px #d6d6d6, -26px -26px 52px #ffffff;
+    }
+    .back{
+      width: 80px;
+      height: 40px;
+      transform: translateY(-6px) translateX(-32vw);
+      border-radius: 10vh;
+      background: linear-gradient(145deg, #e6e6e6, #ffffff);
+      box-shadow: 26px 26px 52px #d6d6d6, -26px -26px 52px #ffffff;
+    }
+  }
+  .ant-table-cell {
+    text-align: center;
+  }
+  .table {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 100px;
+  }
+  .options {
+    width: 15vw;
+    padding: 0 1vw 0 1vw;
+    display: flex;
+    margin: 2vh auto;
+    height: 7vh;
+    justify-content: space-between;
+    border-radius: 97px;
+    background: #e0e0e0;
+    box-shadow: 5px 5px 15px #bcbcbc, -10px -10px 20px #ffffff;
+    background-color: transparent;
+    div {
+      width: 30%;
+      text-align: center;
+      line-height: 7vh;
+      cursor: pointer;
+      &:hover {
+        color: blue;
+      }
+    }
+  }
+}

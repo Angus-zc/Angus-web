@@ -1,0 +1,13 @@
+.group{
+    position: absolute;
+    border: 0px solid blue;
+    z-index: 999;
+    .pointer {
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        border: 1px solid black;
+        background-color: white;
+      }
+}

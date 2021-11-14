@@ -1,0 +1,11 @@
+@import '../../style/variable.scss';
+.work-place {
+  height: 100vh;
+  background-color: lightblue;
+  .content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 93%;
+  }
+}

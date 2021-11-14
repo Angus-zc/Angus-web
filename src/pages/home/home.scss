@@ -1,0 +1,135 @@
+@import "../../style/variable.scss";
+
+.home {
+  color: $white;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(20, 167, 237, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  height: 100vh;
+  width: 100vw;
+  .middle {
+    display: flex;
+    justify-content: space-evenly;
+    .logo {
+      height: 50vmin;
+      margin-top: 13vh;
+      pointer-events: none;
+      animation: App-logo-spin infinite 20s linear;
+    }
+    .home-content-info {
+      margin-top: 10vh;
+      .title {
+        width: 100%;
+        text-align: center;
+        line-height: 20vh;
+        font-size: 3rem;
+        color: $white;
+        font-family: cursive;
+        text-shadow: 6px 2px 2px #333;
+      }
+      .info {
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+      }
+      .start-use {
+        width: 100%;
+        text-align: center;
+        line-height: 20vh;
+        position: absolute;
+        top: 60%;
+        left: -25vw;
+        button {
+          width: 12vw;
+          height: 7vh;
+          border: none;
+          border-radius: 3vw;
+          a {
+            color: $black;
+          }
+        }
+      }
+    }
+  }
+
+  .binner {
+    display: flex;
+    justify-content: flex-end;
+    .text {
+      width: 8vw;
+      line-height: $bannerHeight;
+      cursor: pointer;
+      a {
+        color: $white;
+      }
+    }
+  }
+
+  footer {
+    width: 50vw;
+    line-height: $bannerHeight;
+    text-align: center;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 85vh;
+    animation: footer-title 1.5s linear forwards;
+  }
+  .footer-text {
+    font-size: 0.5rem;
+    margin-top: -1vh;
+    width: 60vw;
+    text-align: center;
+    position: absolute;
+    top: 95vh;
+    animation: footer-content 1.5s linear forwards;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes show-title {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    height: 20vh;
+    opacity: 1;
+  }
+}
+
+@keyframes footer-title {
+  from {
+    left: 0px;
+    transform: translate(0px);
+    opacity: 0;
+  }
+  to {
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 1;
+  }
+}
+@keyframes footer-content {
+  from {
+    left: 100%;
+    transform: translate(-100%);
+    opacity: 0;
+  }
+  to {
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 1;
+  }
+}

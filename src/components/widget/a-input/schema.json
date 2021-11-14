@@ -1,0 +1,70 @@
+{
+    "title": "AInput",
+    "description": "The base componet of AInput",
+    "type": "object",
+    "required":[
+        "placeholder",
+        "style"
+    ],
+    "properties": {
+        "placeholder": {
+            "type": "string"
+        },
+        "style": {
+            "type": "object",
+            "properties": {
+                "width": {
+                    "type": "number",
+                    "minmun": 0,
+                    "maximum": 1500
+                },
+                "height": {
+                    "type": "number",
+                    "minmun": 0,
+                    "maximum": 1500
+                },
+                "fontWeight":{
+                    "type":"integer",
+                    "minmun": 0,
+                    "maximum": 1000
+                },
+                "fontSize": {
+                    "type": "number",
+                    "minmun": 0,
+                    "maximum": 500
+                },
+                "borderRadius": {
+                    "type": "number",
+                    "minmun": 0,
+                    "maximum": 750
+                },
+                "borderWidth": {
+                    "type": "number",
+                    "minmun": 0,
+                    "maximum": 500
+                },
+                "borderColor": {
+                    "type": "string"
+                },
+                "left": {
+                    "type": "number"
+                },
+                "top": {
+                    "type": "number"
+                },
+                "paddingLeft": {
+                    "type": "number",
+                    "minmun": 0, 
+                    "maximum": 1500
+                },
+                "outLine": {
+                    "type": "string",
+                    "enum": [
+                        "none"
+                    ]
+                }
+            },
+            "additionalProperties": false
+        }
+    }
+}

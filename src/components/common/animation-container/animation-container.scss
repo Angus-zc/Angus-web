@@ -1,0 +1,25 @@
+.animation-container{
+    h4{
+        width: 100%;
+        padding-left: 2vw;
+    }
+    .option-button{
+        width: 7vw;
+                height: 10vh;
+                margin: 1vh 2vh 1vh 2vh;   
+    }
+    .item{
+        h4{
+            width: 100%;
+            padding-left: 2vw;
+        }
+        .container{
+            float: left;
+            .button{
+                width: 7vw;
+                height: 10vh;
+                margin: 1vh 2vh 1vh 2vh;   
+            }
+        }
+    }
+}
