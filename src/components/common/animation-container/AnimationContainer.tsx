@@ -34,11 +34,7 @@ const AnimationContainer: FC = () => {
             dispatch(addAnimation(animationName))
             showSuccess(label)
         } catch (err) {
-<<<<<<< HEAD
             showError(err as string)
-=======
-            showError(err)
->>>>>>> cdb8a88bf89a21b12ab9809369fde28bf4ef387d
         }
     }
 
@@ -52,11 +48,7 @@ const AnimationContainer: FC = () => {
             dispatch(clearAnimation())
             showSuccess('清除成功！')
         } catch (err) {
-<<<<<<< HEAD
             showError(err as string)
-=======
-            showError(err)
->>>>>>> cdb8a88bf89a21b12ab9809369fde28bf4ef387d
         }
         
     }
